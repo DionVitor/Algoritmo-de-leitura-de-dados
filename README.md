@@ -10,4 +10,4 @@ Como por exemplo as arrays: ['a', 'b', 'c', 'd', 'e'] e ['a', 'b', 'c', 'e', 'd'
 
 E também existem as arrays de letras iguais, a qual não devem ser consideradas, pois não retorna um resultado de análise de 5 letras de fato.
 
-Como por exemplo a array: ['a', 'a', 'a', 'a', 'a'] ou ['a', 'a', 'c', 'd', 'e'], em que a primeira só retorna o número de palavras sem o 'a', e a segunda que retorna apenas o número de palavras sem 'a', 'c', 'd' e 'e'.
+Como por exemplo a array: ['a', 'a', 'a', 'a', 'a'] ou ['a', 'a', 'c', 'd', 'e'], em que a primeira só retornam o número de palavras sem o 'a', e a segunda que retorna apenas o número de palavras sem 'a', 'c', 'd' e 'e'.
