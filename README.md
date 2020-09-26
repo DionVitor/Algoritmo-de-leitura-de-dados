@@ -8,6 +8,6 @@ Em síntese, existem milhões de arrays iguais (que excluem o mesmo número de p
 
 Como por exemplo as arrays: ['a', 'b', 'c', 'd', 'e'] e ['a', 'b', 'c', 'e', 'd'], em que cada array tem o mesmo resultado para 120 outras arrays (5!);
 
-E também existem as arrays de letras iguais, a qual não devem ser consideradas, pois não retorna um resultado de análise de 5 letras de fato.
+E também existem as arrays de letras iguais, a qual não devem ser consideradas, pois não retornam um resultado de análise de 5 letras de fato.
 
-Como por exemplo a array: ['a', 'a', 'a', 'a', 'a'] ou ['a', 'a', 'c', 'd', 'e'], em que a primeira só retornam o número de palavras sem o 'a', e a segunda que retorna apenas o número de palavras sem 'a', 'c', 'd' e 'e'.
+Como por exemplo a array: ['a', 'a', 'a', 'a', 'a'] ou ['a', 'a', 'c', 'd', 'e'], em que a primeira só retorna o número de palavras sem o 'a', e a segunda que retorna apenas o número de palavras sem 'a', 'c', 'd' e 'e'.
