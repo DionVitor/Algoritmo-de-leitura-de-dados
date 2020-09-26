@@ -4,7 +4,7 @@ O objetivo do programa é saber qual a a sequência de 5 letras alfabéticas exc
 
 Exemplificando, se a sequência de letras for: 'a', 'b', 'c', 'd', 'e'. A palavra Amor será excluida, pois ela possui uma letra proibida, o 'a'. Já se a palavra for Óculos, ela não será excluída, pois não tem nenhuma letra da sequência de letras.
 
-Em síntese, existem milhões de arrays iguais (que excluem o mesmo número de palavras do banco de dados), por isso, essas devem ser desconsideradas.
+Em síntese, existem milhões de arrays iguais (que excluem o mesmo número de palavras do banco de dados), por isso, algumas arrays devem ser desconsideradas.
 
 Como por exemplo as arrays: ['a', 'b', 'c', 'd', 'e'] e ['a', 'b', 'c', 'e', 'd'], em que cada array tem o mesmo resultado para 120 outras arrays (5!);
 
