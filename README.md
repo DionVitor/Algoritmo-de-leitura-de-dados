@@ -6,7 +6,7 @@ Exemplificando, se a sequência de letras for: 'a', 'b', 'c', 'd', 'e'. A palavr
 
 Em síntese, existem milhões de arrays iguais (que excluem o mesmo número de palavras do banco de dados), por isso, algumas arrays devem ser desconsideradas.
 
-Como por exemplo as arrays: ['a', 'b', 'c', 'd', 'e'] e ['a', 'b', 'c', 'e', 'd'], em que cada array tem o mesmo resultado para 120 outras arrays (5!);
+Como por exemplo as arrays: ['a', 'b', 'c', 'd', 'e'] e ['a', 'b', 'c', 'e', 'd'], em que cada array tem o mesmo resultado para 120 outras arrays (5!).
 
 E também existem as arrays de letras iguais, a qual não devem ser consideradas, pois não retornam um resultado de análise de 5 letras de fato.
 
