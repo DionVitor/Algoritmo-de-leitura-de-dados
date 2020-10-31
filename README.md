@@ -1,7 +1,9 @@
 # Análise de dados e otimização de algoritmos python.
 
-## O objetivo do programa é saber qual a a sequência de 5 letras alfabéticas exclui o mínimo de palavras possíveis de um banco de dados. Em que, se a letra estiver na sequência, ela excluirá todas as palavras do banco de dados que contenham essa letra, e assim acontece com as próximas 4 letras. 
+## O objetivo principal do programa é saber qual a a sequência de 5 letras alfabéticas exclui o mínimo de palavras possíveis de um banco de dados. Em que, se a letra estiver na sequência, ela excluirá todas as palavras do banco de dados que contenham essa letra, e assim acontece com as próximas 4 letras. 
 ### Porém, o intúito do projeto é fazer testes de otimização de código, para tornar a execução do código mais rápida.
+
+#### As branchs serão versões do mesmo programa, onde a master será o método mais leigo de se implementar o código.
 
 Exemplificando, se a sequência de letras for: 'a', 'b', 'c', 'd', 'e'. A palavra Amor será excluida, pois ela possui uma letra proibida, o 'a'. Já se a palavra for Óculos, ela não será excluída, pois não tem nenhuma letra da sequência de letras.
 
