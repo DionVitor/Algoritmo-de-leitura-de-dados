@@ -4,7 +4,9 @@
 ### Porém, o intúito do projeto é fazer testes de otimização de código, para tornar a execução do código mais rápida.
 
 #### As branchs serão versões do mesmo programa, onde a master será o método mais leigo de se implementar o código.
-
+#
+Para ver os tempos de execução [clique aqui]()
+#
 Exemplificando, se a sequência de letras for: 'a', 'b', 'c', 'd', 'e'. A palavra Amor será excluida, pois ela possui uma letra proibida, o 'a'. Já se a palavra for Óculos, ela não será excluída, pois não tem nenhuma letra da sequência de letras.
 
 Em síntese, existem milhões de arrays iguais (que excluem o mesmo número de palavras do banco de dados), por isso, algumas arrays devem ser desconsideradas.
