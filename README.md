@@ -5,7 +5,7 @@
 
 #### As branchs serão versões do mesmo programa, onde a master será o método mais leigo de se implementar o código.
 #
-Para ver os tempos de execução [clique aqui]()
+Para ver os tempos de execução [clique aqui](https://github.com/DionVitor/Algoritmo-de-leitura-de-dados/blob/master-1.1/time_of_execution.md)
 #
 Exemplificando, se a sequência de letras for: 'a', 'b', 'c', 'd', 'e'. A palavra Amor será excluida, pois ela possui uma letra proibida, o 'a'. Já se a palavra for Óculos, ela não será excluída, pois não tem nenhuma letra da sequência de letras.
 
