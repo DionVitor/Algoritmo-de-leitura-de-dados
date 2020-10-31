@@ -22,6 +22,6 @@ Tempos execução obtidos:
 OBS.: As modificações são cumulativas, ou seja, uma branch x terá novas modificações e todas as modificações de suas branchs anteriores.
 Branch | Tempo de execução | Modificação
 --|--|--
-master | | Programa inicial
-master-1.1 | | Criação de arrays simplificadas
-master-1.2 | | 
+master-1.1 | | Programa inicial
+master-1.2 | | Criação de arrays simplificadas
+master-1.3 | | 
