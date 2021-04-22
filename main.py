@@ -95,8 +95,8 @@ for primeira_letra in range(0, len(lista)):
                     lista_temp[3] = lista[quarta_letra]
                     lista_temp[4] = lista[quinta_letra]
 
-                    if analisador_de_lista(lista_temp) == False:
-                        if dectector_de_listas_iguais(lista_ascii, lista_temp) != True:
+                    if not analisador_de_lista(lista_temp):
+                        if not dectector_de_listas_iguais(lista_ascii, lista_temp):
                             lista_ascii.append(dectector_de_listas_iguais(lista_ascii, lista_temp))
                             if lista_temp == ['a', 'b', 'c', 'd', 'e']:
                                 lista_com_menor_exclusao_de_palavras = lista_temp[:]
@@ -106,7 +106,9 @@ for primeira_letra in range(0, len(lista)):
                                 if a > num_max_palavras:
                                     num_max_palavras = a
                                     lista_com_menor_exclusao_de_palavras = lista_temp[:]
-                                    print(f'Encontrei uma lista melhor... \nLISTA : {lista_com_menor_exclusao_de_palavras}\nPALAVRAS NÃO EXCLUÌDAS {num_max_palavras}')
+                                    print(f'Encontrei uma lista melhor... \nLISTA : '
+                                          f'{lista_com_menor_exclusao_de_palavras}\n'
+                                          f'PALAVRAS NÃO EXCLUÌDAS {num_max_palavras}')
                                     print('-'*30)
 
 print(f'MELHOR LISTA: {lista_com_menor_exclusao_de_palavras}, número de palavras não excluidas: {num_max_palavras}')
